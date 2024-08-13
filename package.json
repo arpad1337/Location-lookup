@@ -1,0 +1,31 @@
+{
+  "name": "location-lookup",
+  "version": "1.0.0",
+  "description": "Find nearby cities per ZIP code",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/arpad1337/location-lookup.git"
+  },
+  "keywords": [
+    "location",
+    "lookup",
+    "nodejs",
+    "script",
+    "opensource"
+  ],
+  "author": "Arpad Kiss <arpad@greeneyes.ai>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/arpad1337/location-lookup/issues"
+  },
+  "homepage": "https://gitlab.com/arpad1337/location-lookup#readme",
+  "dependencies": {
+    "@types/node": "^22.2.0",
+    "typescript": "^5.5.4"
+  }
+}
